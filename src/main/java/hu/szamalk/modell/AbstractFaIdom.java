@@ -1,16 +1,14 @@
 package hu.szamalk.modell;
 
-public abstract class Idom {
+public abstract class AbstractFaIdom extends AbstractIdom {
     private static double fajsuly;
 
-    public Idom() {
+    public AbstractFaIdom() {
         this.fajsuly = 0.8;
     }
-    public double terfogat(){
-        return 0;
-    }
+
     public double suly(){
-        return terfogat() * Idom.fajsuly;
+        return terfogat() * AbstractFaIdom.fajsuly;
     }
 
     @Override

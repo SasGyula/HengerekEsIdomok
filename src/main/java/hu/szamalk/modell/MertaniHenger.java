@@ -1,6 +1,6 @@
 package hu.szamalk.modell;
 
-public class MertaniHenger {
+public class MertaniHenger extends AbstractIdom{
     private static int hengerDb = 0;
     private double sugar, magassag;
 
@@ -14,12 +14,7 @@ public class MertaniHenger {
         return hengerDb;
     }
 
-    /* VESZÉLYES és nehéz használni */
-//    public static void setHengerDb(int hengerDb) {
-//        MertaniHenger.hengerDb = hengerDb;
-//    }
 
-    /* csak a leszármazott éri el, vagy aki azonos package-ben van */
     protected static void csokkentHengerDb() {
         MertaniHenger.hengerDb--;
     }

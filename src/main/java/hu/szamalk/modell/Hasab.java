@@ -1,6 +1,6 @@
 package hu.szamalk.modell;
 
-public class Hasab extends Idom {
+public class Hasab extends AbstractFaIdom {
     private double a,b,magassag;
 
     public Hasab(double a, double b, double magassag) {

@@ -1,6 +1,6 @@
 package hu.szamalk.modell;
 
-public class Gomb extends Idom {
+public class Gomb extends AbstractFaIdom {
     private double sugar;
 
     public Gomb(double sugar) {
